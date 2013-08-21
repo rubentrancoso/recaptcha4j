@@ -97,7 +97,7 @@ public class ReCaptchaImpl implements ReCaptcha {
 
 		String message = fetchJSOptions(options);
 
-		message += "<script type=\"text/javascript\" src=\"" + recaptchaServer + "/challenge?k=" + publicKey + errorPart + "\"></script>\r\n";
+   		message += "<script type=\"text/javascript\" src=\"" + recaptchaServer + "/challenge?k=" + publicKey + "&hl=" + options.getProperty("lang") +  errorPart + "\"></script>\r\n";
 
 		if (includeNoscript) {
 			String noscript = "<noscript>\r\n" + 

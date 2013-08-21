@@ -6,9 +6,9 @@
 
 	<!-- The Basics -->
 
-	<groupId>net.tanesha.recaptcha4j</groupId>
+	<groupId>com.doteva.recaptcha4j</groupId>
 	<artifactId>recaptcha4j</artifactId>
-	<version>0.0.8-kohsuke-2-SNAPSHOT</version>
+	<version>0.0.8</version>
 	<packaging>jar</packaging>
 
 	<dependencies>
